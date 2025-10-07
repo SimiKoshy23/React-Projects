@@ -4,7 +4,7 @@
   top: 0;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   width: 100%;
   padding-left: 50px;
@@ -15,9 +15,9 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 100px;
   margin: 30px;
-  padding-right: 30px;
+  padding-right: 80px;
 }
 
 .logo{
