@@ -11,6 +11,16 @@
   background-color: rgb(1, 7, 24);
   z-index: 10;
 }
+
+@media (max-width: 800px) {
+  .navbarOuter {
+   flex-direction: row;
+    justify-content: space-between; 
+    padding-left: 10px;
+    margin-right: 90px; 
+  }
+}
+
 .navbar {
   list-style: none;
   display: flex;
@@ -33,6 +43,7 @@
   text-transform: uppercase;
   transition: color 0.3s ease;
   cursor: pointer;
+  color:white;
 }
 
 .item:hover {

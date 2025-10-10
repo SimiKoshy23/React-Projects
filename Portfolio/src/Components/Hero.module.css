@@ -19,16 +19,24 @@
     padding: 20px;
 }
 
+
 .image{
     border-radius: 100%;
-    animation: moveAndRotate 2s ease-out forwards;
+    animation: moveAndRotate 2s ease-out forwards; 
+     width: 800px;
+    height:800px;
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .image {
+    width: 500px;
+    height:500px;
+  }
 }
 
 .text{
     color:white;
-   width:auto;
-   margin-right:200px;
-    font-weight: 700;
+  font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 2px;
 }
@@ -42,9 +50,37 @@
   letter-spacing: 2px;
   border-style: none; 
   cursor: pointer;
+  border:white;
+  background-color: azure;
 }
 
 .download:hover{
   cursor: pointer;
   background-color: aqua;
+}
+
+@media (max-width: 800px) {
+  .hero{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image{
+    width:400px;
+    height:400px;
+    margin-top: 60px;
+  }
+  .text{
+    align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .image{
+    width:200px;
+    height:200px;
+    margin-top: 60px;
+  }
 }
