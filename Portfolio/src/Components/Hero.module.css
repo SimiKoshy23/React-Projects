@@ -23,14 +23,14 @@
 .image {
   border-radius: 100%;
   animation: moveAndRotate 2s ease-out forwards;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
 @media (min-width: 800px) and (max-width: 1300px) {
   .image {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -60,28 +60,24 @@
   background-color: aqua;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hero {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column-reverse;
   }
-  .image {
-    width: 400px;
-    height: 400px;
-    margin-top: 60px;
-  }
-  .text {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 400px) {
   .image {
     width: 200px;
     height: 200px;
-    margin-top: 60px;
+  }
+
+  .headline{
+    text-align: center;
+    margin: 0;
+  }
+  .text {
+    width:90vw;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 16px;
   }
 }

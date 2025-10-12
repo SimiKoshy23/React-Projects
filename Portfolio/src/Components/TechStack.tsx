@@ -43,6 +43,7 @@ function TechStack() {
               textAlign: "center",
               color: "white",
               transition: "transform 0.3s ease, box-shadow 0.3s ease",
+              minWidth:"400px",
               "&:hover": {
                 transform: "translateY(-8px)",
                 boxShadow: "0 8px 40px rgba(0, 0, 0, 0.3)",
@@ -70,6 +71,7 @@ function TechStack() {
               textAlign: "center",
               color: "white",
               transition: "transform 0.3s ease, box-shadow 0.3s ease",
+               minWidth:"400px",
               "&:hover": {
                 transform: "translateY(-8px)",
                 boxShadow: "0 8px 40px rgba(0, 0, 0, 0.3)",
@@ -97,6 +99,7 @@ function TechStack() {
               textAlign: "center",
               color: "white",
               transition: "transform 0.3s ease, box-shadow 0.3s ease",
+               minWidth:"400px",
               "&:hover": {
                 transform: "translateY(-8px)",
                 boxShadow: "0 8px 40px rgba(0, 0, 0, 0.3)",

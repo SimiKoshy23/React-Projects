@@ -9,7 +9,7 @@ function Hero() {
   return (
     <Box className={style.hero}>
       <div className={style.text}>
-        <p style={{ color: "cyan" }}>Someli</p>
+        <p style={{ color: "cyan" }} className={style.headline}>Someli</p>
         <p>
           I'm a Frontend Developer with 3 years of experience crafting
           intuitive, high-performing digital products. My passion lies in

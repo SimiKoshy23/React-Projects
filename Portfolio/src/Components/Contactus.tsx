@@ -11,6 +11,7 @@ function Contactus() {
         justifyContent: "center",
         py: 6,
         color: "#fff",
+        px:3
       }}
     >
       <Box

@@ -20,7 +20,7 @@ function Banner() {
       <div>
         <img src="solid.jpg" alt="profile" className={style.image} />
       </div>
-      <div style={{ color: "white", padding: "300px" }}>
+      <div style={{ color: "white"}}>
         <Typography
           variant="h4"
           sx={{ paddingBottom: "2px", color: "#00FFFF" }}
@@ -43,10 +43,10 @@ function Banner() {
           And I am a FrontEnd Developer
         </Typography>
         <div>
-          <Twitter sx={{ color: "#00FFFF", marginRight: "15px"}} />
-          <Facebook sx={{ color: "#00FFFF", marginRight: "15px" }} />
-          <Instagram sx={{ color: "#00FFFF", marginRight: "15px" }} />
-          <LinkedIn sx={{ color: "#00FFFF", marginRight: "15px" }} />{" "}
+          <Twitter sx={{ color: "#00FFFF", marginRight: "15px"}} className={style.icon} />
+          <Facebook sx={{ color: "#00FFFF", marginRight: "15px" }} className={style.icon}/>
+          <Instagram sx={{ color: "#00FFFF", marginRight: "15px" }} className={style.icon}/>
+          <LinkedIn sx={{ color: "#00FFFF", marginRight: "15px" }} className={style.icon}/>
         </div>
       </div>
     </Box>

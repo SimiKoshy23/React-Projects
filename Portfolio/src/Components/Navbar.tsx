@@ -1,8 +1,9 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import style from "./Navbar.module.css";
 import HamburgerMenu from "./HamburgerMenu";
 
 function Navbar() {
+  const isMobile = useMediaQuery("(max-width:999px)");
   return (
     <Box
       sx={{
@@ -14,7 +15,8 @@ function Navbar() {
       className={style.navbarOuter}
     >
       <div className={style.logo}>Portfolio</div>
-      <Box sx={{ display: { xs: "none", md: "flex" } }}>
+     {isMobile ? <HamburgerMenu /> : 
+      (<Box>
         <ul className={style.navbar}>
           <li>
             <a
@@ -62,8 +64,7 @@ function Navbar() {
             </a>
           </li>
         </ul>
-      </Box>
-      <HamburgerMenu />
+      </Box>)}
     </Box>
   );
 }

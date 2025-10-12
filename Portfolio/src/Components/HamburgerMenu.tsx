@@ -15,7 +15,7 @@ function HamburgerMenu() {
         onClick={handleClick}
         sx={{
           color: "white",
-          display: { xs: "block", md: "none" },
+          display: { xs: "block", lg: "none" },
           marginRight: "40px",
         }}
       >
