@@ -1,0 +1,48 @@
+.image {
+  border-radius: 100%;
+  animation: moveAndRotate 2s ease-out forwards;
+  width: 500px;
+  height: 500px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #00bfff;
+}
+
+.para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #d3d3d3;
+}
+
+.banner {
+  animation: fadeInUp 2s ease-in-out;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .image {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .image {
+    width: 00px;
+    height: 200px;
+    margin-top: 60px;
+  }
+}
+

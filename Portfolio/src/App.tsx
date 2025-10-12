@@ -1,25 +1,32 @@
-import './App.css'
-import Contactus from './components/Contactus'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import TechStack from './components/TechStack'
+import "./App.css";
+import Banner from "./components/Banner";
+import Contactus from "./components/Contactus";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import TechStack from "./components/TechStack";
 
 function App() {
-  
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <section id="banner">
+        <Banner />
+      </section>
       <section id="hero">
-      <Hero/>
+        <Hero />
       </section>
       <section id="skills">
-      <TechStack/>
+        <TechStack />
+      </section>
+       <section id="projects">
+        <Projects />
       </section>
       <section id="contact">
-      <Contactus/>
+        <Contactus />
       </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
