@@ -1,0 +1,38 @@
+.listItem{
+    margin:0px 20px;
+    color:rgb(166, 7, 7);
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.logo{
+    margin:15px;
+     font-weight: 1000;
+    font-size: 25px;
+    line-height: 20px;
+     color:black;
+}
+
+li:hover{
+    cursor: pointer;
+    color:rgb(88, 3, 3);
+}
+
+.signup{
+    margin:0px 20px;
+    color:rgb(166, 7, 7);
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 20px;
+    border-radius: 999px;
+    border: 1px solid rgb(166, 7, 7);
+    padding:8px;
+}
+
+.signup:hover{
+    cursor: pointer;
+    background-color:rgb(166, 7, 7);
+    color:white;
+    border: 1px solid white;
+}
