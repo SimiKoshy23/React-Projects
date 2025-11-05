@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import style from "./Hero.module.css";
 
 function Hero() {
@@ -10,7 +10,7 @@ function Hero() {
     <Box className={style.hero}>
       <div className={style.text}>
         <p style={{ color: "cyan" }} className={style.headline}>Someli</p>
-        <p>
+        <Typography>
           I'm a Frontend Developer with 3 years of experience crafting
           intuitive, high-performing digital products. My passion lies in
           bridging the gap between elegant design and clean code, ensuring every
@@ -19,7 +19,7 @@ function Hero() {
           user research, and scalable CSS solutions. I thrive in collaborative
           environments, leading projects from initial wireframe to final
           deployment, and have consistently reduced user friction.
-        </p>
+        </Typography>
 
         <Button
           variant="contained"
@@ -37,6 +37,7 @@ function Hero() {
               boxShadow: "0px 6px 15px rgba(0, 255, 255, 0.4)",
               transform: "scale(1.05)",
             },
+            marginTop: "20px"
           }}
           onClick={handleDownload}
         >

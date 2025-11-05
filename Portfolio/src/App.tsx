@@ -8,7 +8,7 @@ import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <section id="banner">
         <Banner />
@@ -25,7 +25,7 @@ function App() {
       <section id="contact">
         <Contactus />
       </section>
-    </>
+    </div>
   );
 }
 

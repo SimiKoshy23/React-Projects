@@ -9,12 +9,14 @@ function Banner() {
       sx={{
         backgroundImage: 'url("bg.jpg")',
         display: "flex",
-        flexDirection: "row",
+        flexDirection: {md:"row",xs:"column"},
         margin: "auto",
         justifyContent: "space-evenly",
         gap: "25px",
         alignItems: "center",
         paddingTop: "100px",
+        textAlign:"center",
+        paddingBottom: {md:"0px",xs:"10px"},
       }}
     >
       <div>
