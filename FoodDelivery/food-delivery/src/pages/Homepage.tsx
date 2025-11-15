@@ -5,11 +5,11 @@ import Navbar from "../components/Navbar";
 
 function Homepage() {
     return (
-        <div style={{padding:"40px",backgroundColor:"#f0a8a8",paddingLeft:"80px",paddingRight:"80px"}}>
+        <div>
             <Navbar/>
             <Hero/>
             <InfoCard/>
-            <Categories/>
+            {/* <Categories/> */}
         </div>
     );
 }
