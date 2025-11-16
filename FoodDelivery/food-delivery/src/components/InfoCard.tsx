@@ -18,29 +18,33 @@ function InfoCard() {
     width: "100%",
     display: "flex",
     justifyContent: "space-around",
+    alignItems:"stretch"
   }}
 >
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 3 ,borderRadius:"20px"}}>
-        <LocalShippingIcon/>
-      <Typography>Fast Delivery</Typography>
-      <Typography>Food delivered to your door within 30 minutes</Typography>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+        <LocalShippingIcon sx={{color:"white",backgroundColor:"orange", fontSize:"90px",borderRadius:"30px"}}/>
+      <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>Fast Delivery</Typography>
+      <Typography variant="h5" sx={{ color: "#4A5568",
+            fontFamily: "Inter, sans-serif",paddingTop:"20px"}}>Food delivered to your door within 30 minutes</Typography>
     </Box>
   </Grid>
 
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 3 ,borderRadius:"20px"}}>
-        <RestaurantIcon/>
-      <Typography>100% Fresh</Typography>
-      <Typography>Always fresh ingredients, never frozen</Typography>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+        <RestaurantIcon sx={{color:"white",backgroundColor:"green", fontSize:"90px",borderRadius:"30px"}}/>
+      <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>100% Fresh</Typography>
+      <Typography variant="h5" sx={{ color: "#4A5568",
+            fontFamily: "Inter, sans-serif",paddingTop:"20px"}}>Always fresh ingredients, never frozen</Typography>
     </Box>
   </Grid>
 
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 3 ,borderRadius:"20px"}}>
-        <CardGiftcardIcon/>
-      <Typography>Free Delivery</Typography>
-      <Typography>No delivery fees on your first order</Typography>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+        <CardGiftcardIcon sx={{color:"white",backgroundColor:"pink", fontSize:"90px",borderRadius:"30px"}}/>
+      <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>Free Delivery</Typography>
+      <Typography variant="h5" sx={{ color: "#4A5568",
+            fontFamily: "Inter, sans-serif",paddingTop:"20px"}}>No delivery fees on your first order</Typography>
     </Box>
   </Grid>
 </Grid>
