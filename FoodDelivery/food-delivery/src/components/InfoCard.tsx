@@ -22,7 +22,7 @@ function InfoCard() {
   }}
 >
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px",transition: "all 0.3s ease","&:hover":{  transform: "translateY(-10px)"}}}>
         <LocalShippingIcon sx={{color:"white",backgroundColor:"orange", fontSize:"90px",borderRadius:"30px"}}/>
       <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>Fast Delivery</Typography>
       <Typography variant="h5" sx={{ color: "#4A5568",
@@ -31,7 +31,7 @@ function InfoCard() {
   </Grid>
 
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px", transition: "all 0.3s ease","&:hover":{  transform: "translateY(-10px)"}}}>
         <RestaurantIcon sx={{color:"white",backgroundColor:"green", fontSize:"90px",borderRadius:"30px"}}/>
       <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>100% Fresh</Typography>
       <Typography variant="h5" sx={{ color: "#4A5568",
@@ -40,7 +40,7 @@ function InfoCard() {
   </Grid>
 
   <Grid item xs={12} sm={4}>
-    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px"}}>
+    <Box sx={{ backgroundColor: "white", p: 7 ,borderRadius:"20px",width:"400px",height:"250px", transition: "all 0.3s ease","&:hover":{  transform: "translateY(-10px)"}}}>
         <CardGiftcardIcon sx={{color:"white",backgroundColor:"pink", fontSize:"90px",borderRadius:"30px"}}/>
       <Typography variant="h4" sx={{ paddingTop:"20px",fontWeight: 700, fontFamily: "Inter, sans-serif" }}>Free Delivery</Typography>
       <Typography variant="h5" sx={{ color: "#4A5568",

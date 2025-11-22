@@ -67,6 +67,10 @@ function Hero() {
             color: "White",
             padding: "15px",
             borderRadius: "15px",
+            transition: "all 0.3s ease",
+            "&:hover": {
+                transform: "translateY(-5px)",
+            }
           }}
         >
           {" "}
@@ -86,6 +90,11 @@ function Hero() {
             color: "#4A5568",
             padding: "15px",
             borderRadius: "15px",
+            border:"1px solid white",
+            "&:hover": {
+              border:"2px solid orange",
+              backgroundColor:"wheat"
+            }
           }}
         >
           <PlayCircleIcon
